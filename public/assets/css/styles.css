@@ -1,0 +1,110 @@
+/* unwanted margin padding 0 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4070f4;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.card {
+    width: 525px;
+    height: auto;
+    padding: 50px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: white;
+    gap: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.inputBox{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding :10px 12px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.inputBox input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+input i{
+    font-size: 20px;
+    color: #555;
+
+}
+.card h2{
+    color:#333;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+.card p{
+    font-weight: 500;
+    color: #555;
+}
+
+.card button{
+    width: 100%;
+    outline:none;
+    border: none;
+    padding:15px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 16px;
+}
+    
+.btn_login{
+    background-color: #4070f4;
+    color: white;
+}
+.card .btn_google {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #f5f5f5;
+    color: #555;
+}
+.card button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.09);
+    font-size: 20px;
+}
+
+.card .btn_google p {
+    width: 100%;
+}
+.account_section{
+    display: flex;
+    gap: 10px;
+}
+
+.card .separator {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.card .separator .line {
+    width: 25%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
